@@ -1,4 +1,5 @@
 import * as React from "react";
 import { createRoot } from "react-dom/client";
+import App from "./App.jsx";
 const root = createRoot(document.body);
-root.render(<h2>Hello its orrin</h2>);
+root.render(<App />);
